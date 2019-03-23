@@ -9,5 +9,14 @@
 #pragma once
 
 #include <stdio.h>
+#include <iostream>
 
 
+class Person{
+    
+protected:
+    
+    std::string first_name;
+    std::string last_name;
+    std::string phone;
+};
