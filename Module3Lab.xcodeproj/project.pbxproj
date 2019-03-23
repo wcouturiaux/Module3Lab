@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9E34FC032246E9A000EC0AC9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E34FC022246E9A000EC0AC9 /* main.cpp */; };
+		9E34FC0B2246EA7100EC0AC9 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E34FC092246EA7100EC0AC9 /* Person.cpp */; };
+		9E34FC0F2246EAEA00EC0AC9 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E34FC0D2246EAEA00EC0AC9 /* Student.cpp */; };
+		9E34FC122246EB0900EC0AC9 /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E34FC102246EB0900EC0AC9 /* Teacher.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		9E34FBFF2246E9A000EC0AC9 /* Module3Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Module3Lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E34FC022246E9A000EC0AC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9E34FC092246EA7100EC0AC9 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		9E34FC0A2246EA7100EC0AC9 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		9E34FC0D2246EAEA00EC0AC9 /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		9E34FC0E2246EAEA00EC0AC9 /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		9E34FC102246EB0900EC0AC9 /* Teacher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Teacher.cpp; sourceTree = "<group>"; };
+		9E34FC112246EB0900EC0AC9 /* Teacher.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Teacher.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 		9E34FBF62246E99F00EC0AC9 = {
 			isa = PBXGroup;
 			children = (
+				9E34FC0C2246EAA000EC0AC9 /* Include */,
 				9E34FC012246E9A000EC0AC9 /* Module3Lab */,
 				9E34FC002246E9A000EC0AC9 /* Products */,
 			);
@@ -57,9 +67,22 @@
 		9E34FC012246E9A000EC0AC9 /* Module3Lab */ = {
 			isa = PBXGroup;
 			children = (
+				9E34FC0D2246EAEA00EC0AC9 /* Student.cpp */,
+				9E34FC102246EB0900EC0AC9 /* Teacher.cpp */,
+				9E34FC092246EA7100EC0AC9 /* Person.cpp */,
 				9E34FC022246E9A000EC0AC9 /* main.cpp */,
 			);
 			path = Module3Lab;
+			sourceTree = "<group>";
+		};
+		9E34FC0C2246EAA000EC0AC9 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				9E34FC0A2246EA7100EC0AC9 /* Person.hpp */,
+				9E34FC0E2246EAEA00EC0AC9 /* Student.hpp */,
+				9E34FC112246EB0900EC0AC9 /* Teacher.hpp */,
+			);
+			path = Include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E34FC122246EB0900EC0AC9 /* Teacher.cpp in Sources */,
+				9E34FC0F2246EAEA00EC0AC9 /* Student.cpp in Sources */,
+				9E34FC0B2246EA7100EC0AC9 /* Person.cpp in Sources */,
 				9E34FC032246E9A000EC0AC9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
