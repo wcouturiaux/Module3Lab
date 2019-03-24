@@ -21,3 +21,7 @@ Person::Person(std::string fName, int age, std::string lName, std::string phone)
 Person::~Person(){
     
 }
+
+std::string Person::OutputAge(){
+    return "I am " + std::to_string(age) +"years old";
+}
