@@ -15,10 +15,13 @@ int main(int argc, const char * argv[]) {
     
     Student Student1("John", 31, "Smith", "555-142-1234");
     
-    
-    
     std::cout<<Student1.OutputAge()<<std::endl;
     Student1.OutputIdentity();
     
+    Teacher *Teacher1 = new Teacher("Joh", 35, "Smit", "555-142-1235");
+    
+    
+    
+    delete Teacher1;
     return 0;
 }
