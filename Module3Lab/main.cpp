@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     
     
     
-    Student1.OutputAge();
+    std::cout<<Student1.OutputAge()<<std::endl;
     Student1.OutputIdentity();
     
     return 0;
