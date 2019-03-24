@@ -7,3 +7,11 @@
 //
 
 #include "Student.hpp"
+
+Student::Student(){
+    
+}
+
+void Student::OutputIdentity(){
+    
+}
