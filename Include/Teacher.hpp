@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
-
+class Teacher: public Person{
+    
+}
