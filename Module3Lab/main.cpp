@@ -13,7 +13,12 @@
 
 int main(int argc, const char * argv[]) {
     
-    Person *Student1 = new Student;
+    Student Student1("John", 31, "Smith", "555-142-1234");
+    
+    
+    
+    Student1.OutputAge();
+    Student1.OutputIdentity();
     
     return 0;
 }
