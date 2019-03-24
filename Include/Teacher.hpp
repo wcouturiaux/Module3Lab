@@ -12,4 +12,8 @@
 
 class Teacher: public Person{
     
+public:
+    Teacher();
+    virtual ~Teacher();
+    
 }
