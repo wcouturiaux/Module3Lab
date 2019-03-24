@@ -9,6 +9,7 @@
 #pragma once
 
 #include <stdio.h>
+#include "Person.hpp"
 
 class Teacher: public Person{
     
@@ -16,4 +17,4 @@ public:
     Teacher();
     virtual ~Teacher();
     
-}
+};

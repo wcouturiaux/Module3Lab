@@ -9,10 +9,13 @@
 #pragma once
 
 #include <stdio.h>
+#include "Person.hpp"
 
 class Student: public Person {
     
 public:
     Student();
     virtual ~Student();
-}
+    
+    virtual void OutputIdentity();
+};
