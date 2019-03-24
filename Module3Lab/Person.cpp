@@ -7,3 +7,17 @@
 //
 
 #include "Person.hpp"
+
+Person::Person(){
+}
+
+Person::Person(std::string fName, int age, std::string lName, std::string phone){
+    this->first_name=fName;
+    this->age=age;
+    this->last_name=lName;
+    this->phone=phone;
+}
+
+Person::~Person(){
+    
+}
