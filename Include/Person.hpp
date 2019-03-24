@@ -14,9 +14,17 @@
 
 class Person{
     
-protected:
+private:
+    int age;
     
+protected:
     std::string first_name;
     std::string last_name;
     std::string phone;
+    
+public:
+    Person();
+    Person(std::string, int, std::string, std::string);
+    virtual void OutputIdentity()=0;
+    virtual std::string OutputAge(int);
 };
