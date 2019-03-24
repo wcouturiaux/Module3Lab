@@ -20,7 +20,7 @@ void Teacher::OutputIdentity(){
     std::cout<<"I am a Teacher Identity"<<std::endl;
 }
 
-std::string Teacher::OutputAge(){
+void Teacher::OutputAge(){
     Person::OutputAge();
-    return "I am a Teacher Age";
+    std::cout<<"I am a Teacher Age"<<std::endl;
 }

@@ -19,6 +19,6 @@ public:
     virtual ~Teacher();
     
     virtual void OutputIdentity();
-    virtual std::string OutputAge();
+    virtual void OutputAge();
     
 };

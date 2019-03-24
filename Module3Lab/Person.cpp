@@ -22,6 +22,6 @@ Person::~Person(){
     
 }
 
-std::string Person::OutputAge(){
-    return "I am " + std::to_string(age) +"years old";
+void Person::OutputAge(){
+    std::cout<<"I am "<<age<<"years old"<<std::endl;
 }

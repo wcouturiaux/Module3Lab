@@ -21,7 +21,7 @@ void Student::OutputIdentity(){
     std::cout<<"I am a student Identity"<<std::endl;
 }
 
-std::string Student::OutputAge(){
+void Student::OutputAge(){
     Person::OutputAge();
-    return "I am a student Age";
+    std::cout<<"I am a student Age"<<std::endl;
 }
