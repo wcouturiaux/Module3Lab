@@ -13,6 +13,10 @@ Student::Student(std::string fName, int age, std::string lName, std::string phon
     
 }
 
+Student::~Student(){
+    
+}
+
 void Student::OutputIdentity(){
     std::cout<<"I am a student"<<std::endl;
 }
