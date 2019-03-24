@@ -7,3 +7,19 @@
 //
 
 #include "Teacher.hpp"
+
+Teacher::Teacher(std::string fName, int age, std::string lName, std::string phone):Person(fName, age, lName, phone){
+    
+}
+
+Teacher::~Teacher(){
+    
+}
+
+void Teacher::OutputIdentity(){
+    std::cout<<"I am a Teacher Identity"<<std::endl;
+}
+
+std::string Teacher::OutputAge(){
+    return "I am a Teacher Age";
+}

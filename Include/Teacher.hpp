@@ -15,6 +15,10 @@ class Teacher: public Person{
     
 public:
     Teacher();
+    Teacher(std::string, int, std::string, std::string);
     virtual ~Teacher();
+    
+    virtual void OutputIdentity();
+    virtual std::string OutputAge();
     
 };
