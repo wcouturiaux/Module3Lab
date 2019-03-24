@@ -27,5 +27,5 @@ public:
     Person(std::string, int, std::string, std::string);
     virtual ~Person();
     virtual void OutputIdentity()=0;
-    virtual std::string OutputAge(int);
+    virtual std::string OutputAge();
 };
