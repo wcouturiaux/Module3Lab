@@ -8,7 +8,8 @@
 
 #include "Student.hpp"
 
-Student::Student(){
+
+Student::Student(std::string fName, int age, std::string lName, std::string phone):Person(fName, age, lName, phone){
     
 }
 

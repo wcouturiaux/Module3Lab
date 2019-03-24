@@ -15,6 +15,7 @@ class Student: public Person {
     
 public:
     Student();
+    Student(std::string, int, std::string, std::string);
     virtual ~Student();
     
     virtual void OutputIdentity();
