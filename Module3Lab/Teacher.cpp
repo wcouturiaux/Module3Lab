@@ -21,5 +21,6 @@ void Teacher::OutputIdentity(){
 }
 
 std::string Teacher::OutputAge(){
+    Person::OutputAge();
     return "I am a Teacher Age";
 }

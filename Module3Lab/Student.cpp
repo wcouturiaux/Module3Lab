@@ -22,5 +22,6 @@ void Student::OutputIdentity(){
 }
 
 std::string Student::OutputAge(){
+    Person::OutputAge();
     return "I am a student Age";
 }

@@ -20,7 +20,8 @@ int main(int argc, const char * argv[]) {
     
     Teacher *Teacher1 = new Teacher("Joh", 35, "Smit", "555-142-1235");
     
-    
+    std::cout<<Teacher1->OutputAge()<<std::endl;
+    Teacher1->OutputIdentity();
     
     delete Teacher1;
     return 0;
