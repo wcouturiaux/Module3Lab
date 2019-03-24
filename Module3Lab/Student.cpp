@@ -14,5 +14,9 @@ Student::Student(std::string fName, int age, std::string lName, std::string phon
 }
 
 void Student::OutputIdentity(){
-    
+    std::cout<<"I am a student"<<std::endl;
+}
+
+std::string Student::OutputAge(){
+    return "I am a student";
 }

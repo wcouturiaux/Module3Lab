@@ -19,4 +19,5 @@ public:
     virtual ~Student();
     
     virtual void OutputIdentity();
+    virtual std::string OutputAge();
 };
